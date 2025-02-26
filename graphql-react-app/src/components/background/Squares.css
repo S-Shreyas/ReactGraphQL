@@ -1,0 +1,11 @@
+
+.squares-canvas {
+  position: fixed; /* or absolute, depending on your layout needs */
+  top: 0;
+  left: 0;
+  width: 100vw;   /* fill viewport width */
+  height: 100vh;  /* fill viewport height */
+  z-index: -1;    /* sit behind everything else */
+  display: block;
+}
+  

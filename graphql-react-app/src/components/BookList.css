@@ -1,0 +1,49 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+table {
+  margin: 20px auto;
+  /* background-color: #000000;            */
+  border-collapse: collapse;
+  width: 90%;                  
+  max-width: 1200px;           
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+thead th {
+  padding: 30px 15px;
+  font-size: 20px;
+}
+
+tbody td {
+  padding: 12px 15px;
+}
+
+tbody tr:hover {
+  background-color: #3a3a3a;
+}
+
+table th,
+table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  color: #ffffff;
+}
+
+table td:first-child {
+  text-align: left;
+  font-weight: bold;
+}
+
+table td:not(:first-child) {
+  text-align: center;
+}
